@@ -1,252 +1,254 @@
-# 🛕 Virasat-Namma Guide  
-### *Every Stone Has a Story.*
+🪵 Channapatna-Namma
+Every Toy Has a Story.
 
-> A culturally immersive Android app that transforms smartphones into digital heritage companions for exploring Karnataka’s forgotten temples, ruins, inscriptions, and hidden historical treasures.
+A culturally immersive Android application that protects the legacy of Karnataka’s iconic Channapatna wooden toys through digital authenticity verification, artisan storytelling, and heritage education.
 
----
+🌏 About The Project
 
-## 🌏 About The Project
+Channapatna-Namma is a Kotlin-based Android application designed to preserve and promote the centuries-old craft of Channapatna wooden toys — famously known as the Toy Town of Karnataka.
 
-**Virasat-Namma Guide** is a Kotlin-based Android application built to preserve and promote Karnataka’s rich cultural heritage through technology.  
+The app helps buyers verify authentic GI-tag-inspired wooden toys using unique product IDs while also introducing them to the artisans behind the craft.
 
-Instead of just showing locations on a map, the app recreates the feeling of walking with a local historian — combining:
+Instead of buying anonymous products, users discover:
 
-- 📍 Smart heritage discovery  
-- 🗣️ Bilingual storytelling (English + Kannada)  
-- 🔍 QR-powered hidden facts  
-- 🎧 Audio history guides  
-- 🏛️ Temple-inspired visual design  
-- 📖 A personal digital travel passport  
+👨‍🎨 The artisan who made the toy
+🪵 The story behind the wood and lac process
+🎥 How the toy was handcrafted
+🏛️ The cultural heritage of Channapatna craftsmanship
 
-The project focuses on **offline-first tourism experiences** and aims to digitally preserve lesser-known heritage sites that are slowly disappearing from public memory.
+The project combines:
 
----
+Authenticity verification
+Cultural storytelling
+Kannada localization
+Educational heritage preservation
+Sustainable craft awareness
+✨ Experience Highlights
+✅ Verify My Toy
 
-# ✨ Experience Highlights
+Enter a unique 6-digit toy ID to instantly verify whether the toy is authentic.
 
-### 🧭 Discover Hidden Heritage
-Explore simulated nearby heritage sites across Karnataka using seeded local data.
+👨‍🎨 Meet The Artisan
 
-### 🌐 Dual-Language Support
-Switch instantly between **English** and **Kannada** without restarting the app.
+View the artisan’s:
 
-### 🔎 QR Code Unlock System
-Scan heritage QR codes using **Google ML Kit + CameraX** to reveal exclusive hidden facts.
+Profile photo
+Name
+Workshop details
+Traditional craftsmanship background
+🎥 How It’s Made
 
-### 🎵 Interactive Audio Narration
-Listen to short historical audio guides with smooth playback controls.
+Watch mocked educational videos explaining:
 
-### 🛕 Digital Travel Passport
-Check in at heritage sites and build your own cultural journey timeline.
+Hale wood preparation
+Natural lac dye process
+Traditional turning and polishing techniques
+🧸 Toy Catalog
 
-### 🎨 Temple-Inspired UI
-Designed with:
-- Terracotta tones
-- Stone-textured palettes
-- Hoysala-inspired aesthetics
-- Kannada typography accents
+Explore colorful handcrafted toy collections including:
 
----
+Rocking horses
+Puzzles
+Decorative dolls
+Educational toys
+🗺️ Meet The Maker
 
-# 🧱 Tech Stack
+Browse Channapatna workshop locations and discover artisans users can visit physically.
 
-| Technology | Purpose |
-|---|---|
-| **Kotlin** | Android Development |
-| **Room DB** | Offline persistence |
-| **Google ML Kit** | QR/Barcode scanning |
-| **CameraX** | Camera integration |
-| **MediaPlayer** | Audio guide playback |
-| **Material 3** | Modern UI components |
-| **MVVM Architecture** | Clean architecture pattern |
+🌐 Kannada + English Support
 
----
+Switch seamlessly between:
 
-# 📸 Demo QR Site IDs
+English
+ಕನ್ನಡ (Kannada)
 
-Generate QR codes using these exact values:
+to celebrate Karnataka’s local identity and cultural pride.
 
-```text
-SITE-BELUR-001
-SITE-HAMPI-002
-SITE-AIH-003
-```
+🎨 Playful Toy-Inspired UI
 
-🧪 Emulator testing is also supported using the built-in:
+Designed using:
 
-```text
-Mock Scan: SITE-BELUR-001
-```
+Vibrant toy-inspired colors
+Rounded playful cards
+Wooden texture aesthetics
+Child-friendly visual design
+🧱 Tech Stack
+Technology	Purpose
+Kotlin	Android Development
+Firebase Realtime Database / Firestore	Toy ID & artisan verification
+Material 3	Modern Android UI
+RecyclerView + CardViews	Artisan & toy catalog UI
+Google Maps SDK	Workshop location mapping
+MVVM Architecture	Clean architecture pattern
+Glide/Picasso	Image loading
+🔐 Demo Verification IDs
 
-button inside the QR Scanner screen.
+Use these sample IDs inside the app:
 
----
+CHN101
+CHN202
+CHN303
 
-# 🚀 Running The Project
+Example:
 
-## 1️⃣ Clone The Repository
+Enter Toy ID → CHN101
 
-```bash
+Returns:
+
+Artisan profile
+Toy details
+Story video section
+🚀 Running The Project
+1️⃣ Clone The Repository
 git clone <your-repository-url>
-```
-
----
-
-## 2️⃣ Open In Android Studio
-
-```text
+2️⃣ Open In Android Studio
 File → Open → Select Project Folder
-```
 
 Allow Android Studio to complete:
-- Gradle Sync
-- Dependency installation
-- SDK setup
 
----
-
-## 3️⃣ Install Required SDK
+Gradle Sync
+Dependency installation
+SDK setup
+3️⃣ Install Required SDK
 
 Install:
 
-```text
 Android 15 (API 35)
-```
 
 via:
 
-```text
 Tools → SDK Manager
-```
-
----
-
-## 4️⃣ Create Emulator
+4️⃣ Create Emulator
 
 Recommended:
 
-```text
 Pixel 6 / Pixel 7
 API 35 Image
-```
-
----
-
-## 5️⃣ Run The App
+5️⃣ Run The App
 
 Click:
 
-```text
 ▶ Run
-```
+🧪 Suggested Test Flow
+🏠 Home Screen
 
----
+Browse featured toys and artisan stories.
 
-# 🧪 Suggested Test Flow
+🔐 Verify My Toy
 
-### 🏠 Home Screen
-Browse nearby heritage locations.
+Enter a demo Toy ID and validate authenticity.
 
-### 🏛️ Site Detail Screen
-- Read site history
-- Toggle Kannada/English
-- View architecture details
+👨‍🎨 Artisan Profile
 
-### 🎧 Audio Guide
-Test:
-- Play
-- Pause
-- Resume
+Verify:
 
-### 📍 Check-In
-Tap **Check In** to save the visit locally.
+Correct artisan name
+Workshop details
+Toy information
+🎥 How It’s Made
 
-### 🛂 Travel Passport
-Verify check-ins persist after app restart.
+Test mocked educational video playback.
 
-### 📷 QR Scanner
-Test:
-- Real QR codes
-- Mock scan button
+🗺️ Meet The Maker
 
----
+Verify at least 5 workshop pins appear on the map.
 
-# 📂 Core Project Structure
+🧸 Toy Catalog
 
-```text
+Browse different toy categories and designs.
+
+🌐 Language Toggle
+
+Switch between:
+
+English
+Kannada
+
+without restarting the app.
+
+📂 Core Project Structure
 app/
- ├── java/com/example/virasatnammaguide/
+ ├── java/com/example/channapatnanamma/
  │    ├── MainActivity.kt
- │    ├── SiteDetailActivity.kt
- │    ├── QrScannerActivity.kt
- │    ├── HeritageRepository.kt
- │    ├── AppDatabase.kt
+ │    ├── VerifyToyActivity.kt
+ │    ├── ArtisanProfileActivity.kt
+ │    ├── WorkshopMapActivity.kt
+ │    ├── FirebaseRepository.kt
+ │    ├── ToyDatabase.kt
  │
  ├── res/layout/
  │    ├── activity_main.xml
- │    ├── activity_site_detail.xml
- │    ├── activity_qr_scanner.xml
-```
+ │    ├── activity_verify_toy.xml
+ │    ├── activity_artisan_profile.xml
+ │    ├── activity_workshop_map.xml
+🛡️ Cultural & National Impact
+🇮🇳 Protecting GI Heritage
 
----
+Channapatna toys are a proud Geographical Indication (GI) product of Karnataka.
+This application uses technology to help buyers distinguish authentic handcrafted toys from cheap imitations.
 
-# 🛡️ Offline-First Philosophy
+👨‍🎨 Artisan Recognition
 
-This application is intentionally designed to work **without requiring internet access after installation**.
+The app gives anonymous artisans:
 
-Why?
+identity
+visibility
+recognition
+digital presence
 
-Because many real heritage locations:
-- exist in rural areas
-- have poor connectivity
-- lack digital infrastructure
+by connecting buyers directly to the maker’s story.
 
----
+🌱 Sustainable Play
 
-# 🎯 Vision
+Promotes:
 
-Virasat-Namma is more than a tourism app.
+eco-friendly wooden toys
+natural lac dyes
+non-toxic alternatives to plastic toys
 
-It is a small step toward:
-- preserving oral history
-- reviving forgotten monuments
-- promoting local tourism
-- creating cultural pride through technology
+while supporting traditional craftsmanship.
 
----
+🎯 Vision
 
-# 🏆 Future Scope
+Channapatna-Namma is more than a toy verification app.
 
-- 🌙 Dark Mode
-- ⭐ Favourite Sites
-- 🧠 AI-generated Heritage Quiz
-- 📍 Smart Geofence Notifications
-- 🗺️ Live Maps Integration
-- ☁️ Cloud Sync
-- 📤 Social Sharing Cards
+It is a step toward:
 
----
+preserving Karnataka’s artisan heritage
+digitally protecting local crafts
+supporting rural artisans
+promoting sustainable handmade products
+creating cultural pride through technology
+🏆 Success Criteria
 
-# 🤝 Contributors
+✅ Verification system returns the correct artisan profile for valid IDs
+✅ Workshop map displays at least 5 artisan locations
+✅ UI remains colorful, playful, and toy-inspired
+✅ Kannada localization works smoothly
+✅ Educational storytelling enhances cultural awareness
+
+🚀 Future Scope
+🧠 AI-generated toy recommendations
+📦 QR-based toy scanning
+🛒 Online artisan marketplace
+⭐ Favorite artisan collections
+☁️ Cloud sync
+📤 Social sharing cards
+🎙️ Audio storytelling in Kannada
+🤝 Contributors
 
 Built with passion for:
-- Karnataka heritage 🛕
-- Smart tourism 🌍
-- Cultural storytelling 📖
-- Android development 📱
 
----
+Karnataka heritage 🪵
+Channapatna artisans 👨‍🎨
+Sustainable toys 🌱
+Smart cultural technology 📱
+📜 License
 
-# 📜 License
-
-This project is intended for educational and academic purposes.  
-Feel free to modify and expand it for learning or showcase projects.
-
----
+This project is intended for educational and academic purposes.
+Feel free to modify and expand it for learning, exhibitions, or showcase projects.
 
 <div align="center">
-
-### 🏛️ Virasat-Namma  
-#### *"Turning Every Smartphone Into A Digital Historian."*
-
+🪵 Channapatna-Namma
+"Turning Every Toy Into A Piece Of Heritage."
 </div>
