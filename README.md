@@ -9,6 +9,17 @@ Channapatna-Namma is a Kotlin-based Android application designed to preserve and
 
 The app helps buyers verify authentic GI-tag-inspired wooden toys using unique product IDs while also introducing them to the artisans behind the craft.
 
+<img width="377" height="750" alt="image" src="https://github.com/user-attachments/assets/d2a64f20-d9f0-4fb0-89b4-413fb1a24eb5" />
+
+<img width="377" height="742" alt="image" src="https://github.com/user-attachments/assets/6417ca9f-66d9-4e14-833b-3e3fc48de28e" />
+
+<img width="392" height="757" alt="image" src="https://github.com/user-attachments/assets/d864d6a6-7532-41fb-9100-ea4fe93db13b" />
+
+<img width="400" height="751" alt="image" src="https://github.com/user-attachments/assets/b49d7356-5938-49e2-9e20-2fe81908b615" />
+
+<img width="397" height="761" alt="image" src="https://github.com/user-attachments/assets/ef920c13-82a9-4927-adb8-070c49791c8b" />
+
+
 Instead of buying anonymous products, users discover:
 
 👨‍🎨 The artisan who made the toy
