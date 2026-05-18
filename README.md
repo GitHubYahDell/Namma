@@ -1,4 +1,4 @@
-🪵 Channapatna-Namma
+#🪵 Channapatna-Namma
 Every Toy Has a Story.
 
 A culturally immersive Android application that protects the legacy of Karnataka’s iconic Channapatna wooden toys through digital authenticity verification, artisan storytelling, and heritage education.
