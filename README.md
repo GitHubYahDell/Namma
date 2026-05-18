@@ -1,13 +1,23 @@
-#🪵 Channapatna-Namma
-Every Toy Has a Story.
+# 🪵 Channapatna-Namma  
+### *Every Toy Has a Story.*
 
-A culturally immersive Android application that protects the legacy of Karnataka’s iconic Channapatna wooden toys through digital authenticity verification, artisan storytelling, and heritage education.
+> A culturally immersive Android application that protects the legacy of Karnataka’s iconic Channapatna wooden toys through digital authenticity verification, artisan storytelling, and heritage education.
 
-🌏 About The Project
+---
 
-Channapatna-Namma is a Kotlin-based Android application designed to preserve and promote the centuries-old craft of Channapatna wooden toys — famously known as the Toy Town of Karnataka.
+## 🌏 About The Project
+
+**Channapatna-Namma** is a Kotlin-based Android application designed to preserve and promote the centuries-old craft of Channapatna wooden toys — famously known as the *Toy Town of Karnataka*.
 
 The app helps buyers verify authentic GI-tag-inspired wooden toys using unique product IDs while also introducing them to the artisans behind the craft.
+
+Instead of buying anonymous products, users discover:
+
+- 👨‍🎨 The artisan who made the toy  
+- 🪵 The story behind the wood and lac process  
+- 🎥 How the toy was handcrafted  
+- 🏛️ The cultural heritage of Channapatna craftsmanship  
+
 
 <img width="377" height="750" alt="image" src="https://github.com/user-attachments/assets/d2a64f20-d9f0-4fb0-89b4-413fb1a24eb5" />
 
@@ -20,164 +30,192 @@ The app helps buyers verify authentic GI-tag-inspired wooden toys using unique p
 <img width="397" height="761" alt="image" src="https://github.com/user-attachments/assets/ef920c13-82a9-4927-adb8-070c49791c8b" />
 
 
-Instead of buying anonymous products, users discover:
-
-👨‍🎨 The artisan who made the toy
-🪵 The story behind the wood and lac process
-🎥 How the toy was handcrafted
-🏛️ The cultural heritage of Channapatna craftsmanship
-
 The project combines:
 
-Authenticity verification
-Cultural storytelling
-Kannada localization
-Educational heritage preservation
-Sustainable craft awareness
-✨ Experience Highlights
-✅ Verify My Toy
+- ✅ Authenticity verification  
+- 📖 Cultural storytelling  
+- 🌐 Kannada localization  
+- 🛡️ Heritage preservation  
+- 🌱 Sustainable craft awareness  
 
+---
+
+# ✨ Experience Highlights
+
+### ✅ Verify My Toy
 Enter a unique 6-digit toy ID to instantly verify whether the toy is authentic.
 
-👨‍🎨 Meet The Artisan
-
+### 👨‍🎨 Meet The Artisan
 View the artisan’s:
+- Profile photo
+- Name
+- Workshop details
+- Traditional craftsmanship background
 
-Profile photo
-Name
-Workshop details
-Traditional craftsmanship background
-🎥 How It’s Made
-
+### 🎥 How It’s Made
 Watch mocked educational videos explaining:
+- Hale wood preparation
+- Natural lac dye process
+- Traditional turning and polishing techniques
 
-Hale wood preparation
-Natural lac dye process
-Traditional turning and polishing techniques
-🧸 Toy Catalog
-
+### 🧸 Toy Catalog
 Explore colorful handcrafted toy collections including:
+- Rocking horses
+- Puzzles
+- Decorative dolls
+- Educational toys
 
-Rocking horses
-Puzzles
-Decorative dolls
-Educational toys
-🗺️ Meet The Maker
-
+### 🗺️ Meet The Maker
 Browse Channapatna workshop locations and discover artisans users can visit physically.
 
-🌐 Kannada + English Support
-
+### 🌐 Kannada + English Support
 Switch seamlessly between:
-
-English
-ಕನ್ನಡ (Kannada)
+- English
+- ಕನ್ನಡ (Kannada)
 
 to celebrate Karnataka’s local identity and cultural pride.
 
-🎨 Playful Toy-Inspired UI
-
+### 🎨 Playful Toy-Inspired UI
 Designed using:
+- Vibrant toy-inspired colors
+- Rounded playful cards
+- Wooden texture aesthetics
+- Child-friendly visual design
 
-Vibrant toy-inspired colors
-Rounded playful cards
-Wooden texture aesthetics
-Child-friendly visual design
-🧱 Tech Stack
-Technology	Purpose
-Kotlin	Android Development
-Firebase Realtime Database / Firestore	Toy ID & artisan verification
-Material 3	Modern Android UI
-RecyclerView + CardViews	Artisan & toy catalog UI
-Google Maps SDK	Workshop location mapping
-MVVM Architecture	Clean architecture pattern
-Glide/Picasso	Image loading
-🔐 Demo Verification IDs
+---
+
+# 🧱 Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| **Kotlin** | Android Development |
+| **Firebase Realtime Database / Firestore** | Toy ID & artisan verification |
+| **Material 3** | Modern Android UI |
+| **RecyclerView + CardViews** | Artisan & toy catalog UI |
+| **Google Maps SDK** | Workshop location mapping |
+| **MVVM Architecture** | Clean architecture pattern |
+| **Glide/Picasso** | Image loading |
+
+---
+
+# 🔐 Demo Verification IDs
 
 Use these sample IDs inside the app:
 
+```text
 CHN101
 CHN202
 CHN303
+```
 
 Example:
 
+```text
 Enter Toy ID → CHN101
+```
 
 Returns:
+- Artisan profile
+- Toy details
+- Story video section
 
-Artisan profile
-Toy details
-Story video section
-🚀 Running The Project
-1️⃣ Clone The Repository
+---
+
+# 🚀 Running The Project
+
+## 1️⃣ Clone The Repository
+
+```bash
 git clone <your-repository-url>
-2️⃣ Open In Android Studio
+```
+
+---
+
+## 2️⃣ Open In Android Studio
+
+```text
 File → Open → Select Project Folder
+```
 
 Allow Android Studio to complete:
+- Gradle Sync
+- Dependency installation
+- SDK setup
 
-Gradle Sync
-Dependency installation
-SDK setup
-3️⃣ Install Required SDK
+---
+
+## 3️⃣ Install Required SDK
 
 Install:
 
+```text
 Android 15 (API 35)
+```
 
 via:
 
+```text
 Tools → SDK Manager
-4️⃣ Create Emulator
+```
+
+---
+
+## 4️⃣ Create Emulator
 
 Recommended:
 
+```text
 Pixel 6 / Pixel 7
 API 35 Image
-5️⃣ Run The App
+```
+
+---
+
+## 5️⃣ Run The App
 
 Click:
 
+```text
 ▶ Run
-🧪 Suggested Test Flow
-🏠 Home Screen
+```
 
+---
+
+# 🧪 Suggested Test Flow
+
+### 🏠 Home Screen
 Browse featured toys and artisan stories.
 
-🔐 Verify My Toy
-
+### 🔐 Verify My Toy
 Enter a demo Toy ID and validate authenticity.
 
-👨‍🎨 Artisan Profile
-
+### 👨‍🎨 Artisan Profile
 Verify:
+- Correct artisan name
+- Workshop details
+- Toy information
 
-Correct artisan name
-Workshop details
-Toy information
-🎥 How It’s Made
-
+### 🎥 How It’s Made
 Test mocked educational video playback.
 
-🗺️ Meet The Maker
-
+### 🗺️ Meet The Maker
 Verify at least 5 workshop pins appear on the map.
 
-🧸 Toy Catalog
-
+### 🧸 Toy Catalog
 Browse different toy categories and designs.
 
-🌐 Language Toggle
-
+### 🌐 Language Toggle
 Switch between:
-
-English
-Kannada
+- English
+- Kannada
 
 without restarting the app.
 
-📂 Core Project Structure
+---
+
+# 📂 Core Project Structure
+
+```text
 app/
  ├── java/com/example/channapatnanamma/
  │    ├── MainActivity.kt
@@ -192,74 +230,93 @@ app/
  │    ├── activity_verify_toy.xml
  │    ├── activity_artisan_profile.xml
  │    ├── activity_workshop_map.xml
-🛡️ Cultural & National Impact
-🇮🇳 Protecting GI Heritage
+```
 
-Channapatna toys are a proud Geographical Indication (GI) product of Karnataka.
+---
+
+# 🛡️ Cultural & National Impact
+
+## 🇮🇳 Protecting GI Heritage
+
+Channapatna toys are a proud **Geographical Indication (GI)** product of Karnataka.  
 This application uses technology to help buyers distinguish authentic handcrafted toys from cheap imitations.
 
-👨‍🎨 Artisan Recognition
+## 👨‍🎨 Artisan Recognition
 
 The app gives anonymous artisans:
-
-identity
-visibility
-recognition
-digital presence
+- identity
+- visibility
+- recognition
+- digital presence
 
 by connecting buyers directly to the maker’s story.
 
-🌱 Sustainable Play
+## 🌱 Sustainable Play
 
 Promotes:
-
-eco-friendly wooden toys
-natural lac dyes
-non-toxic alternatives to plastic toys
+- eco-friendly wooden toys
+- natural lac dyes
+- non-toxic alternatives to plastic toys
 
 while supporting traditional craftsmanship.
 
-🎯 Vision
+---
+
+# 🎯 Vision
 
 Channapatna-Namma is more than a toy verification app.
 
 It is a step toward:
+- preserving Karnataka’s artisan heritage
+- digitally protecting local crafts
+- supporting rural artisans
+- promoting sustainable handmade products
+- creating cultural pride through technology
 
-preserving Karnataka’s artisan heritage
-digitally protecting local crafts
-supporting rural artisans
-promoting sustainable handmade products
-creating cultural pride through technology
-🏆 Success Criteria
+---
 
-✅ Verification system returns the correct artisan profile for valid IDs
-✅ Workshop map displays at least 5 artisan locations
-✅ UI remains colorful, playful, and toy-inspired
-✅ Kannada localization works smoothly
+# 🏆 Success Criteria
+
+✅ Verification system returns the correct artisan profile for valid IDs  
+✅ Workshop map displays at least 5 artisan locations  
+✅ UI remains colorful, playful, and toy-inspired  
+✅ Kannada localization works smoothly  
 ✅ Educational storytelling enhances cultural awareness
 
-🚀 Future Scope
-🧠 AI-generated toy recommendations
-📦 QR-based toy scanning
-🛒 Online artisan marketplace
-⭐ Favorite artisan collections
-☁️ Cloud sync
-📤 Social sharing cards
-🎙️ Audio storytelling in Kannada
-🤝 Contributors
+---
+
+# 🚀 Future Scope
+
+- 🧠 AI-generated toy recommendations
+- 📦 QR-based toy scanning
+- 🛒 Online artisan marketplace
+- ⭐ Favorite artisan collections
+- ☁️ Cloud sync
+- 📤 Social sharing cards
+- 🎙️ Audio storytelling in Kannada
+
+---
+
+# 🤝 Contributors
 
 Built with passion for:
+- Karnataka heritage 🪵
+- Channapatna artisans 👨‍🎨
+- Sustainable toys 🌱
+- Smart cultural technology 📱
 
-Karnataka heritage 🪵
-Channapatna artisans 👨‍🎨
-Sustainable toys 🌱
-Smart cultural technology 📱
-📜 License
+---
 
-This project is intended for educational and academic purposes.
+# 📜 License
+
+This project is intended for educational and academic purposes.  
 Feel free to modify and expand it for learning, exhibitions, or showcase projects.
 
+---
+
 <div align="center">
-🪵 Channapatna-Namma
-"Turning Every Toy Into A Piece Of Heritage."
+
+### 🪵 Channapatna-Namma  
+#### *"Turning Every Toy Into A Piece Of Heritage."*
+
 </div>
